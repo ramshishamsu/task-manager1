@@ -43,7 +43,7 @@ function App() {
       setError("");
 
       // Call backend API
-      const response = await fetch(`${process.env.REACT_APP_API_URL || "http://localhost:5000"}/api/tasks`);
+      const response = await fetch("https://task-manager1-uwei.onrender.com/api/tasks");
       if (!response.ok) throw new Error("Failed to fetch tasks");
 
       const data = await response.json();
@@ -61,7 +61,7 @@ function App() {
       setLoading(true);
       setError("");
 
-      const response = await fetch(`${process.env.REACT_APP_API_URL || "http://localhost:5000"}/api/tasks`, {
+      const response = await fetch("https://task-manager1-uwei.onrender.com/api/tasks", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(task)
@@ -84,7 +84,7 @@ function App() {
       setLoading(true);
       setError("");
 
-      const response = await fetch(`${process.env.REACT_APP_API_URL || "http://localhost:5000"}/api/tasks/${id}`, {
+      const response = await fetch(`https://task-manager1-uwei.onrender.com/api/tasks/${id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(task)
@@ -107,7 +107,7 @@ function App() {
       setLoading(true);
       setError("");
 
-      const response = await fetch(`${process.env.REACT_APP_API_URL || "http://localhost:5000"}/api/tasks/${id}`, {
+      const response = await fetch(`https://task-manager1-uwei.onrender.com/api/tasks/${id}`, {
         method: "DELETE"
       });
 
