@@ -3,8 +3,6 @@
 A simple task management application where you can add, edit, delete, and organize your daily tasks.
 
 
-## 🛠️ How It's Built
-
 **Frontend (What you see):**
 - React - Modern user interface
 - CSS - Clean styling and layout
@@ -79,15 +77,13 @@ task-manager/
 └── README.md         # This file
 ```
 
-## 🎯 What I Learned
+
 
 - **Frontend**: React components, state management, user interfaces
 - **Backend**: REST APIs, database connections, server setup
 - **Full-Stack**: How frontend and backend work together
 - **Database**: MongoDB for storing data
 - **Tools**: Modern development with Vite and npm
-
-## 🎉 Done!
 
 
 **Perfect for:**
