@@ -2,16 +2,6 @@
 
 A simple task management application where you can add, edit, delete, and organize your daily tasks.
 
-## 🎯 What You Can Do
-
-- ✅ **Add Tasks** - Create new tasks with title and description
-- ✅ **View Tasks** - See all your tasks in a clean list
-- ✅ **Edit Tasks** - Update task details and status
-- ✅ **Delete Tasks** - Remove tasks you don't need
-- ✅ **Search Tasks** - Find tasks by typing keywords
-- ✅ **Filter Tasks** - View tasks by status (All, Pending, In Progress, Completed)
-
-## 🛠️ How It's Built
 
 **Frontend (What you see):**
 - React - Modern user interface
@@ -87,7 +77,7 @@ task-manager/
 └── README.md         # This file
 ```
 
-## 🎯 What I Learned
+
 
 - **Frontend**: React components, state management, user interfaces
 - **Backend**: REST APIs, database connections, server setup
@@ -95,15 +85,6 @@ task-manager/
 - **Database**: MongoDB for storing data
 - **Tools**: Modern development with Vite and npm
 
-## 🎉 Done!
-
-Your task manager app is ready to use. 
-
-**Key Features Working:**
-- ✅ Add, edit, delete tasks
-- ✅ Search and filter functionality  
-- ✅ Clean, responsive design
-- ✅ Real-time updates
 
 **Perfect for:**
 - Daily task management
@@ -112,4 +93,4 @@ Your task manager app is ready to use.
 
 ---
 
-*Built with ❤️ for the Full Stack Development Internship assignment*
+
