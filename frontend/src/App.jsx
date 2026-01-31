@@ -241,7 +241,14 @@ function App() {
       </div>
 
       {/* Filter Buttons */}
-      <div style={{ marginBottom: '20px', textAlign: 'center' }}>
+      <div style={{ 
+        marginBottom: '20px', 
+        textAlign: 'center',
+        display: 'flex',
+        flexWrap: 'wrap',
+        gap: '8px',
+        justifyContent: 'center'
+      }}>
         <button onClick={() => filterTasks("all")} style={getButtonStyle("all")}>
           All ({tasks.length})
         </button>
